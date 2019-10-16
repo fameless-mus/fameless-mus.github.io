@@ -1,1 +1,6 @@
-body {background-color: #C0C0C0}
+tr:nth-child(2n+1) {background-color:orangered;}
+tr:hover {background-color:#FFA07A;}
+div:hover {background-color:#FFA07A;}
+a:active {color:#FFA07A}
+a:visited {color:#FFD700}
+a:hover {background-color:orangered;}
