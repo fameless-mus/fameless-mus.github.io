@@ -1,8 +1,16 @@
-div {display: inline-block;
-	width: 200px;
-	height: 200px;
-	border-radius: 35px;
-	border: 2;
+ 
+img {width: 70%;
+	height: 50%;}
+.position {display: inline-block;
 	position: relative;
-	float: right;
-}
+	border: solid 5px black; 
+border-radius: 20px;
+width: 30%;
+height: 200px;
+padding: 1,5px 1,5px;
+margin: 0 1%;
+overflow: auto;
+}	
+.mane {
+margin: 0 10%;
+width: 80%}
