@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/Javascript">
+		function spis (){
+			var num = frm.sp.selectedIndex;
+			var str = frm.sp.options[num].text;
+			document.bgColor = str;
+		}
+</script>
+</head>
+<body>
+	<form name="frm">
+<select name="sp" onchange="spis()">
+<option>Red</option>
+<option>Green</option>
+<option>Blue</option>
+</select>
+</form>
+</body>
+</html>
