@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/Javascript">
+		function spis (){
+			var num = frm.sp.selectedIndex;
+			var str = frm.sp.options[num].text;
+			mon.innerHTML = "<font color='blue'>" + str + "</font>";
+		}
+</script>
+</head>
+<body>
+	<form name="frm">
+<select name="sp" onchange="spis()">
+<option>Січень</option>
+<option>Лютий</option>
+<option>Березень</option>
+</select>
+<p id="mon"></p>
+</form>
+</body>
+</html>
